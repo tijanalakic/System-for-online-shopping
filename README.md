@@ -2,7 +2,7 @@
 The system consists of three web applications: an application for managing user accounts, an application for managing items, and an application for viewing and purchasing items.
 The system is implemented so that all communication between the client and the server is protected. When establishing communication, is required mutual authentication between
 the client and the server. All digital certificates used are issued by a single CA body. SSO (Single Sign-On) mechanism is implemented. The entire system is protected by a 
-simple WAF (Web Application Firewall) implemented on a web server. WAF scans traffic to a web server and misses only benign requests, and rejects potentially malicious ones.
+simple WAF (Web Application Firewall) implemented on a web server. WAF scans traffic on a web server, let through only benign requests, and rejects potentially malicious ones.
 
 ******************
 Implementirati jednostavan sistem za online kupovinu. Sistem se sastoji od tri web aplikacije:
